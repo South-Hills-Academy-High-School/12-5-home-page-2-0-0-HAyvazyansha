@@ -1,3 +1,27 @@
 <html>
     <h1>The dinosaur asks you a thrid question :)</h1>
+    <h2>what day is today? :)</h2>
+    <p><input type="text" value="type answer here" id="what"></p>
+    <p><button onclick="what()">answer</button></p>
+
+
+
+
+
+
+
+    <script>
+        function what(){
+            var color = document.getElementById("what").value
+            if(color==="friday"){
+                alert("correct answer")
+                window.location.href="/dinosaur4.html"
+            }else{
+                alert("Wrong Go Back to scholl and study!!")
+                window.location.href="/dinosaureat.html"
+            }
+    
+        }
+    
+    </script>
 </html>

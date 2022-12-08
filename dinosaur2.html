@@ -1,3 +1,24 @@
 <html>
     <h1>The dinosaur asks you a second question :)</h1>
+    <h2>how are you?</h2>
+    <p><input type="text" value="type answer here" id="how"></p>
+    <p><button onclick="how()">answer</button></p>
+
+
+
+
+    <script>
+        function how(){
+            var color = document.getElementById("how").value
+            if(color==="good"){
+                alert("correct answer")
+                window.location.href="/dinosaur3.html"
+            }else{
+                alert("Wrong Go Back to scholl and study!!")
+                window.location.href="/dinosaureat.html"
+            }
+    
+        }
+    
+    </script>
 </html>

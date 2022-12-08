@@ -1,3 +1,25 @@
 <html>
     <h1>The dinosaur asks you a fifth question :)</h1>
+    <h2>which reason you did it? :)</h>
+    <p><input type="text" value="type answer here" id="which"></p>
+    <p><button onclick="which()">answer</button></p>
+
+
+
+
+
+     <script>
+        function which(){
+            var color = document.getElementById("which").value
+            if(color==="i am very tired"){
+                alert("correct answer")
+                window.location.href="/ending.html"
+            }else{
+                alert("Wrong Go Back to scholl and study!!")
+                window.location.href="/dinosaureat.html"
+            }
+    
+        }
+    
+    </script>
 </html>

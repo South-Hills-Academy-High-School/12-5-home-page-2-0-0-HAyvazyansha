@@ -1,3 +1,26 @@
 <html>
     <h1>The dinosaur asks you a fourth question :)</h1>
+    <h2>why you came here?:)</h2>
+    <p><input type="text" value="type answer here" id="why"></p>
+    <p><button onclick="why()">answer</button></p>
+
+
+
+
+
+
+    <script>
+        function why(){
+            var color = document.getElementById("why").value
+            if(color==="i don't know"){
+                alert("correct answer")
+                window.location.href="/dinosaur5.html"
+            }else{
+                alert("Wrong Go Back to scholl and study!!")
+                window.location.href="/dinosaureat.html"
+            }
+    
+        }
+    
+    </script>
 </html>
